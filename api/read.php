@@ -27,6 +27,7 @@ if ($run > 0) {
             'author' => $author,
             'category_id' => $category_id,
             'category_name'  => $category_name,
+            'created_at' => $created_at,
         );
         //push to "data"
         array_push($posts_arr['data'], $post_item);
